@@ -1,0 +1,22 @@
+body {
+    background: url("1.jpg") no-repeat center center fixed !important;
+    background-size: cover !important;
+    backdrop-filter: grayscale(100);
+    height: 100vh;
+   }
+
+.card{
+    min-height: 40vh;
+}
+
+.card-content {
+    height: 100%;
+    
+
+}
+form{
+    margin: 0 !important;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}

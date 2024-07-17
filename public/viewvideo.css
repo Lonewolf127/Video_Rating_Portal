@@ -1,0 +1,80 @@
+.ViewVideo-Box {
+    display: flex;
+    flex-direction: row;
+   padding: 5%;
+   padding-bottom: 0%;
+  
+   
+}
+
+
+
+.page-footer {
+    margin-top: 100px;
+   
+ 
+}
+
+#ViewVideo-Box-Form-Div{
+    margin-left: 5%;
+    margin-right: 3%;
+    overflow:scroll;
+    height: 800px;
+    max-height: 800px;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style:dotted;
+    padding: 3%;
+    padding-top: 0%;
+    /* -ms-overflow-style: none;  /* IE and Edge */
+    /*scrollbar-width: none;  Firefox */
+  
+  
+}
+.VideoPlayer-div {
+    padding: 2%;
+    
+}
+
+#ViewVideo-Box-Form-Div::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+   
+  
+
+#videoPlayer {
+    margin-left: 3%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 12px;
+   
+}
+
+
+
+
+    /*  Outer Circle - Unchecked  */
+    [type="radio"]:not(:checked) + span:before, [type="radio"]:not(:checked) + span:after {
+        border: 2px solid #000000 !important;
+    }
+
+    /*  Outer Circle - Checked  */
+    [type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:before, [type="radio"].with-gap:checked + span:after {
+        border: 2px solid #000000 !important;
+    }
+
+        /*  Inner Circle - Checked  */
+        [type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
+            /*  should fill in the dot  */
+            background-color: #000000 !important;
+        }
+
+
+        input[type="radio"]{display:none;}
+#submit_button {
+    margin:0 auto;
+    display:block;
+}
+

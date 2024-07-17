@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<%- include ('partials/header',{title:'Home'}); %>
+
+    <body>
+        <main>
+            <%- include ('partials/NavBar') %>
+            <h3 id="heading">Select a video to rate</h3>
+                <div id="item-container">
+                    <% randomSuggestions.forEach(function(item){ %>
+                        <% console.log(item.uploadedBy) %>
+                            <%- include('partials/thumbnail', {thumbnail: item.thumbnail,href: item.documentRef}); %>
+                                <% }); %>
+                </div>
+        </main>
+        <link rel="stylesheet" href="/common.css">
+        <link rel="stylesheet" href="/getsuggestions.css">
+
+        <%- include ('partials/footer.ejs') %>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+            <script src="/js/ProfilePublic.js"></script>
+           
+
+            <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    </body>
+
+    </html>

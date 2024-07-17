@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Rating</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<main>
+<body>
+  <%-include('partials/NavBar') %>
+  
+     <div style="height: 450px;">
+    <% if(value==="1") { %> 
+    <h2 style="text-align: center;">ASD symptoms found </h2>
+    <% } else{ %>
+        <h2  style="text-align: center;">ASD symptoms not found</h2>
+    <% } %>
+    
+    </div>
+  
+     
+    <br><br>
+   
+  </form>
+      
+    </div>
+  </div>
+
+  <link rel="stylesheet" href="/common.css">
+  <%- include ('partials/footer.ejs') %>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="/js/ViewVideo.js"></script>
+     <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  
+     
+</body>
+</main>
+
+</html>

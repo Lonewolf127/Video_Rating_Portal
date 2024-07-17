@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+
+    </head>    
+<%- include ('partials/header',{title:"profile"}); %>
+    <%- include ('partials/NavBar') %>
+
+        <body>
+
+            <div class="profile-info-div container">
+                <div class="row section">
+                    <h5>Profile Details</h5>
+                </div>
+                <div class="row card">
+                    <div class="card-content">
+                    <form action="/profile" onsubmit="submit_button()" method="POST"
+                        class=" col s12 center-align">
+                        
+                            <%- include ('partials/FormRow.ejs',{user:user,id:'Username',type:'text'})%>
+                            <%- include ('partials/FormRow.ejs',{user:user,id:'PhoneNo',type:'text'})%>
+                            <%- include ('partials/FormRow.ejs',{user:user,id:'Password',type:'password'})%>
+                            <button type="button" class="btn waves-effect waves-light #424242 grey darken-3"
+                                            onclick="changePassword_button()" id="profile-changePassword-button"
+                                            style="visibility:hidden">Change</button>
+
+                            <button type="button" onclick="edit_button()" id="profile-edit-button"
+                                            class="btn waves-effect waves-light #424242 grey darken-3">Edit</button>
+                            <button id="profile-submit-button"
+                                            class="btn waves-effect waves-light #424242 grey darken-3" type="Submit"
+                                            style="visibility:hidden">Submit</button>
+                        
+                    </form>
+                </div></div>
+                <div class=" section">
+                    <h5>Uploaded Videos</h5>
+                </div>
+            <div id="item-container">
+                <% UserVideos.forEach(function(item){ %>
+                    <% console.log(item.uploadedBy) %>
+                        <%- include('partials/thumbnail', {thumbnail: item.thumbnail,href: item.documentRef}); %>
+                            <% }); %>
+            </div></div>
+            <link rel="stylesheet"
+            href="/common.css">
+   
+            <%- include ('partials/footer.ejs') %>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+            <script src="/js/ProfilePublic.js"></script>
+
+               <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        </body>
+
+        </html>

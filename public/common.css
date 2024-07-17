@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      
+  .btn{
+      width: 100%;
+  }
+     /* label underline focus color */
+input:focus {
+  border-bottom: 1px solid rgb(199, 0, 0) !important;
+  box-shadow: 0 1px 0 0 rgb(199, 0, 0) !important;
+}
+/* valid color */
+input[type=text].valid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+input[type=text].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}

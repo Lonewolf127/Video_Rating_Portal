@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Rating</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<main>
+<body>
+  <%-include('partials/NavBar') %>
+  <div class="ViewVideo-Box">
+    <div class="VideoPlayer-div">
+      <video id="videoPlayer"  width="650" controls muted="muted" autoplay>
+        <source src="<%= href %> " type="video/mp4" />
+      </video>
+    </div>
+
+    <div id="ViewVideo-Box-Form-Div" >
+      <h4> Rate the following questions. </h4>
+        <form action="/ratings" onsubmit="return func_validform()" method="post">
+    <% var i=1; %>
+    <% questions.forEach(function(question){ %>
+        <%- include('partials/para', {question:question}); %>
+        <% ["0","1","2","3"].forEach(function(x){ %>
+        <%- include('partials/radiobutton',{radiobutton_id:'Q'+i+'.'+x,questionNo: i, label_name:x, value:x}); %>
+       
+        
+     <%  }); %>
+    <% i++; }); %>
+    <br><br>
+    <button class="btn waves-effect waves-light #424242 grey darken-3 " id="submit_button" type="submit"  name="action">Submit</button>
+  </form>
+      
+    </div>
+  </div>
+  <link rel="stylesheet" href="/viewvideo.css">
+  <link rel="stylesheet" href="/common.css">
+  <%- include ('partials/footer.ejs') %>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="/js/ViewVideo.js"></script>
+     <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <script>
+       function func_validform()
+      {  
+        
+         for( var i=1;i<=30;i++)
+         {
+            var radiobuttons=document.getElementsByName(i.toString());
+             var valid=false;
+            for ( var j = 0; j < radiobuttons.length; j++) {
+                     if(radiobuttons[j].checked) {
+                     valid = true;
+                     break;
+            }
+          }
+            if(!valid)
+            {   M.toast({html: 'Please rate all the questions properly'});
+                console.log("kfkg");
+                return false;
+              }
+         }
+         return true;
+        }   
+
+    </script>
+     
+</body>
+</main>
+
+</html>

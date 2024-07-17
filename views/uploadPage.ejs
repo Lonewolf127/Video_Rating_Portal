@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include ('partials/header',{title:"login"}); %>
+<body>
+
+    <%- include ('partials/NavBar') %> <main>
+    <div class="container center-align">
+       
+        <div class="row ">
+            
+            <div class="col l6 offset-l3">
+                <h5>Upload a new Video</h5>
+                <form action="/video/upload" id="upload-form" method="post" enctype="multipart/form-data">
+
+                   
+                    <%- include ('partials/FormRow.ejs',{user:{},id:'Name',type:'text'})%>
+
+                    <%- include ('partials/FormRow.ejs',{user:{},id:'Age',type:'text'})%>
+
+                    <div class="mb-3" style="display: none;">
+                        <label for="thumbnail" >Image</label>
+                        <input type="text" id="image" name="thumbnail">
+                    </div>
+                    <div class="custom-file">
+                        <label class="custom-file-label" for="file1" id="file-label1">Choose file</label>
+                        <input type="file" class="custom-file-input" name="file" id="file1"
+                            onchange="readSingleFile(this.files)">
+                    </div>  
+                    <input type="submit" value="Submit" class="btn btn-primary btn-block red">
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div id="thumbnail" class=" col l6 offset-l3"></div>    
+        </div>
+    
+    </div></main>
+    <%- include ('partials/footer.ejs') %>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet"
+		href="common.css">
+        <link rel="stylesheet"
+		href="upload.css">
+        <script src="/js/common.js"></script>
+    <script src="/js/upload.js"></script>
+</body>
+
+</html>
+
+

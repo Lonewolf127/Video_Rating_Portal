@@ -1,0 +1,554 @@
+done
+mean
+IterativeKNeighborsRegressor
+IterativeLinearRegression
+IterativeBayesianRidge
+IterativeDecisionTreeRegressor
+IterativeRandomForestRegressor
+LR/mean
+fit_time0.05534138679504395
+score_time0.0036277294158935545
+test_accuracy0.9325515782049022
+test_precision0.9444332083841818
+test_recall0.9592743428359867
+test_f1_score0.9516336364822708
+LR/IterativeKNeighborsRegressor
+[IterativeImputer] Completing matrix with shape (534, 33)
+[IterativeImputer] Ending imputation round 1/30, elapsed time 0.23
+[IterativeImputer] Change: 352.4859589437726, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 2/30, elapsed time 0.29
+[IterativeImputer] Change: 177.79999999999995, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 3/30, elapsed time 0.34
+[IterativeImputer] Change: 180.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 4/30, elapsed time 0.40
+[IterativeImputer] Change: 159.8, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 5/30, elapsed time 0.46
+[IterativeImputer] Change: 203.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 6/30, elapsed time 0.52
+[IterativeImputer] Change: 160.60000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 7/30, elapsed time 0.57
+[IterativeImputer] Change: 159.8, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 8/30, elapsed time 0.63
+[IterativeImputer] Change: 203.8, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 9/30, elapsed time 0.69
+[IterativeImputer] Change: 204.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 10/30, elapsed time 0.75
+[IterativeImputer] Change: 204.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 11/30, elapsed time 0.81
+[IterativeImputer] Change: 204.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 12/30, elapsed time 0.86
+[IterativeImputer] Change: 204.60000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 13/30, elapsed time 0.92
+[IterativeImputer] Change: 204.60000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 14/30, elapsed time 0.98
+[IterativeImputer] Change: 204.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 15/30, elapsed time 1.05
+[IterativeImputer] Change: 204.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 16/30, elapsed time 1.13
+[IterativeImputer] Change: 204.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 17/30, elapsed time 1.20
+[IterativeImputer] Change: 204.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 18/30, elapsed time 1.26
+[IterativeImputer] Change: 204.60000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 19/30, elapsed time 1.31
+[IterativeImputer] Change: 204.60000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 20/30, elapsed time 1.37
+[IterativeImputer] Change: 204.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 21/30, elapsed time 1.43
+[IterativeImputer] Change: 204.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 22/30, elapsed time 1.49
+[IterativeImputer] Change: 204.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 23/30, elapsed time 1.54
+[IterativeImputer] Change: 204.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 24/30, elapsed time 1.61
+[IterativeImputer] Change: 204.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 25/30, elapsed time 1.72
+[IterativeImputer] Change: 204.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 26/30, elapsed time 1.77
+[IterativeImputer] Change: 204.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 27/30, elapsed time 1.82
+[IterativeImputer] Change: 204.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 28/30, elapsed time 1.88
+[IterativeImputer] Change: 204.60000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 29/30, elapsed time 1.93
+[IterativeImputer] Change: 204.60000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 30/30, elapsed time 1.99
+[IterativeImputer] Change: 204.20000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Completing matrix with shape (534, 33)
+[IterativeImputer] Ending imputation round 1/30, elapsed time 0.10
+[IterativeImputer] Ending imputation round 2/30, elapsed time 0.15
+[IterativeImputer] Ending imputation round 3/30, elapsed time 0.19
+[IterativeImputer] Ending imputation round 4/30, elapsed time 0.22
+[IterativeImputer] Ending imputation round 5/30, elapsed time 0.26
+[IterativeImputer] Ending imputation round 6/30, elapsed time 0.30
+[IterativeImputer] Ending imputation round 7/30, elapsed time 0.33
+[IterativeImputer] Ending imputation round 8/30, elapsed time 0.37
+[IterativeImputer] Ending imputation round 9/30, elapsed time 0.40
+[IterativeImputer] Ending imputation round 10/30, elapsed time 0.43
+[IterativeImputer] Ending imputation round 11/30, elapsed time 0.47
+[IterativeImputer] Ending imputation round 12/30, elapsed time 0.50
+[IterativeImputer] Ending imputation round 13/30, elapsed time 0.54
+[IterativeImputer] Ending imputation round 14/30, elapsed time 0.59
+[IterativeImputer] Ending imputation round 15/30, elapsed time 0.62
+[IterativeImputer] Ending imputation round 16/30, elapsed time 0.66
+[IterativeImputer] Ending imputation round 17/30, elapsed time 0.69
+[IterativeImputer] Ending imputation round 18/30, elapsed time 0.73
+[IterativeImputer] Ending imputation round 19/30, elapsed time 0.76
+[IterativeImputer] Ending imputation round 20/30, elapsed time 0.80
+[IterativeImputer] Ending imputation round 21/30, elapsed time 0.83
+[IterativeImputer] Ending imputation round 22/30, elapsed time 0.87
+[IterativeImputer] Ending imputation round 23/30, elapsed time 0.91
+[IterativeImputer] Ending imputation round 24/30, elapsed time 0.94
+[IterativeImputer] Ending imputation round 25/30, elapsed time 0.98
+[IterativeImputer] Ending imputation round 26/30, elapsed time 1.01
+[IterativeImputer] Ending imputation round 27/30, elapsed time 1.05
+[IterativeImputer] Ending imputation round 28/30, elapsed time 1.08
+[IterativeImputer] Ending imputation round 29/30, elapsed time 1.12
+[IterativeImputer] Ending imputation round 30/30, elapsed time 1.16
+[IterativeImputer] Completing matrix with shape (1, 33)
+[IterativeImputer] Ending imputation round 1/30, elapsed time 0.01
+[IterativeImputer] Ending imputation round 2/30, elapsed time 0.02
+[IterativeImputer] Ending imputation round 3/30, elapsed time 0.04
+[IterativeImputer] Ending imputation round 4/30, elapsed time 0.05
+[IterativeImputer] Ending imputation round 5/30, elapsed time 0.06
+[IterativeImputer] Ending imputation round 6/30, elapsed time 0.07
+[IterativeImputer] Ending imputation round 7/30, elapsed time 0.08
+[IterativeImputer] Ending imputation round 8/30, elapsed time 0.10
+[IterativeImputer] Ending imputation round 9/30, elapsed time 0.11
+[IterativeImputer] Ending imputation round 10/30, elapsed time 0.12
+[IterativeImputer] Ending imputation round 11/30, elapsed time 0.13
+[IterativeImputer] Ending imputation round 12/30, elapsed time 0.15
+[IterativeImputer] Ending imputation round 13/30, elapsed time 0.16
+[IterativeImputer] Ending imputation round 14/30, elapsed time 0.17
+[IterativeImputer] Ending imputation round 15/30, elapsed time 0.18
+[IterativeImputer] Ending imputation round 16/30, elapsed time 0.19
+[IterativeImputer] Ending imputation round 17/30, elapsed time 0.21
+[IterativeImputer] Ending imputation round 18/30, elapsed time 0.22
+[IterativeImputer] Ending imputation round 19/30, elapsed time 0.23
+[IterativeImputer] Ending imputation round 20/30, elapsed time 0.24
+[IterativeImputer] Ending imputation round 21/30, elapsed time 0.25
+[IterativeImputer] Ending imputation round 22/30, elapsed time 0.27
+[IterativeImputer] Ending imputation round 23/30, elapsed time 0.28
+[IterativeImputer] Ending imputation round 24/30, elapsed time 0.29
+[IterativeImputer] Ending imputation round 25/30, elapsed time 0.30
+[IterativeImputer] Ending imputation round 26/30, elapsed time 0.32
+[IterativeImputer] Ending imputation round 27/30, elapsed time 0.33
+[IterativeImputer] Ending imputation round 28/30, elapsed time 0.34
+[IterativeImputer] Ending imputation round 29/30, elapsed time 0.35
+[IterativeImputer] Ending imputation round 30/30, elapsed time 0.36
+fit_time0.04207525253295898
+score_time0.0034966468811035156
+test_accuracy0.9325868453535531
+test_precision0.949160329160329
+test_recall0.9538319141058867
+test_f1_score0.9513593939557847
+LR/IterativeLinearRegression
+[IterativeImputer] Completing matrix with shape (534, 33)
+[IterativeImputer] Ending imputation round 1/30, elapsed time 0.50
+[IterativeImputer] Change: 5525.28702298319, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 2/30, elapsed time 0.63
+[IterativeImputer] Change: 298.35993125901723, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 3/30, elapsed time 0.74
+[IterativeImputer] Change: 114.57048156230637, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 4/30, elapsed time 0.87
+[IterativeImputer] Change: 16.876335452441083, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 5/30, elapsed time 1.00
+[IterativeImputer] Change: 20.01477592792348, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 6/30, elapsed time 1.12
+[IterativeImputer] Change: 22.449281305270564, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 7/30, elapsed time 1.24
+[IterativeImputer] Change: 20.632079612386182, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 8/30, elapsed time 1.31
+[IterativeImputer] Change: 18.12260514476462, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 9/30, elapsed time 1.42
+[IterativeImputer] Change: 15.92123480073293, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 10/30, elapsed time 1.55
+[IterativeImputer] Change: 13.867423750947927, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 11/30, elapsed time 1.67
+[IterativeImputer] Change: 11.943301054423934, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 12/30, elapsed time 1.80
+[IterativeImputer] Change: 10.192333830422772, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 13/30, elapsed time 1.92
+[IterativeImputer] Change: 8.636371572192559, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 14/30, elapsed time 2.04
+[IterativeImputer] Change: 7.27924168239396, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 15/30, elapsed time 2.15
+[IterativeImputer] Change: 6.1118530425446185, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 16/30, elapsed time 2.27
+[IterativeImputer] Change: 5.1176500686561095, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 17/30, elapsed time 2.38
+[IterativeImputer] Change: 4.276913494976063, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 18/30, elapsed time 2.48
+[IterativeImputer] Change: 3.5693464362486473, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 19/30, elapsed time 2.59
+[IterativeImputer] Change: 3.06329485082898, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 20/30, elapsed time 2.71
+[IterativeImputer] Change: 2.7052964196765736, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 21/30, elapsed time 2.83
+[IterativeImputer] Change: 2.3881217104882557, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 22/30, elapsed time 2.94
+[IterativeImputer] Change: 2.15988821327256, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 23/30, elapsed time 3.04
+[IterativeImputer] Change: 1.952149275392693, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 24/30, elapsed time 3.10
+[IterativeImputer] Change: 1.761721620961883, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 25/30, elapsed time 3.17
+[IterativeImputer] Change: 1.6639837610859076, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 26/30, elapsed time 3.23
+[IterativeImputer] Change: 1.570322000485418, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 27/30, elapsed time 3.34
+[IterativeImputer] Change: 1.5152359886953264, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 28/30, elapsed time 3.45
+[IterativeImputer] Change: 1.52914286721629, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 29/30, elapsed time 3.57
+[IterativeImputer] Change: 1.534744503421542, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 30/30, elapsed time 3.69
+[IterativeImputer] Change: 1.5327744555241274, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Completing matrix with shape (534, 33)
+[IterativeImputer] Ending imputation round 1/30, elapsed time 0.04
+[IterativeImputer] Ending imputation round 2/30, elapsed time 0.06
+[IterativeImputer] Ending imputation round 3/30, elapsed time 0.07
+[IterativeImputer] Ending imputation round 4/30, elapsed time 0.09
+[IterativeImputer] Ending imputation round 5/30, elapsed time 0.10
+[IterativeImputer] Ending imputation round 6/30, elapsed time 0.11
+[IterativeImputer] Ending imputation round 7/30, elapsed time 0.11
+[IterativeImputer] Ending imputation round 8/30, elapsed time 0.12
+[IterativeImputer] Ending imputation round 9/30, elapsed time 0.13
+[IterativeImputer] Ending imputation round 10/30, elapsed time 0.14
+[IterativeImputer] Ending imputation round 11/30, elapsed time 0.14
+[IterativeImputer] Ending imputation round 12/30, elapsed time 0.15
+[IterativeImputer] Ending imputation round 13/30, elapsed time 0.16
+[IterativeImputer] Ending imputation round 14/30, elapsed time 0.16
+[IterativeImputer] Ending imputation round 15/30, elapsed time 0.17
+[IterativeImputer] Ending imputation round 16/30, elapsed time 0.18
+[IterativeImputer] Ending imputation round 17/30, elapsed time 0.18
+[IterativeImputer] Ending imputation round 18/30, elapsed time 0.19
+[IterativeImputer] Ending imputation round 19/30, elapsed time 0.20
+[IterativeImputer] Ending imputation round 20/30, elapsed time 0.20
+[IterativeImputer] Ending imputation round 21/30, elapsed time 0.21
+[IterativeImputer] Ending imputation round 22/30, elapsed time 0.22
+[IterativeImputer] Ending imputation round 23/30, elapsed time 0.23
+[IterativeImputer] Ending imputation round 24/30, elapsed time 0.25
+[IterativeImputer] Ending imputation round 25/30, elapsed time 0.26
+[IterativeImputer] Ending imputation round 26/30, elapsed time 0.27
+[IterativeImputer] Ending imputation round 27/30, elapsed time 0.27
+[IterativeImputer] Ending imputation round 28/30, elapsed time 0.28
+[IterativeImputer] Ending imputation round 29/30, elapsed time 0.29
+[IterativeImputer] Ending imputation round 30/30, elapsed time 0.31
+[IterativeImputer] Completing matrix with shape (1, 33)
+[IterativeImputer] Ending imputation round 1/30, elapsed time 0.00
+[IterativeImputer] Ending imputation round 2/30, elapsed time 0.01
+[IterativeImputer] Ending imputation round 3/30, elapsed time 0.03
+[IterativeImputer] Ending imputation round 4/30, elapsed time 0.03
+[IterativeImputer] Ending imputation round 5/30, elapsed time 0.04
+[IterativeImputer] Ending imputation round 6/30, elapsed time 0.04
+[IterativeImputer] Ending imputation round 7/30, elapsed time 0.05
+[IterativeImputer] Ending imputation round 8/30, elapsed time 0.05
+[IterativeImputer] Ending imputation round 9/30, elapsed time 0.06
+[IterativeImputer] Ending imputation round 10/30, elapsed time 0.06
+[IterativeImputer] Ending imputation round 11/30, elapsed time 0.07
+[IterativeImputer] Ending imputation round 12/30, elapsed time 0.07
+[IterativeImputer] Ending imputation round 13/30, elapsed time 0.07
+[IterativeImputer] Ending imputation round 14/30, elapsed time 0.08
+[IterativeImputer] Ending imputation round 15/30, elapsed time 0.08
+[IterativeImputer] Ending imputation round 16/30, elapsed time 0.08
+[IterativeImputer] Ending imputation round 17/30, elapsed time 0.09
+[IterativeImputer] Ending imputation round 18/30, elapsed time 0.09
+[IterativeImputer] Ending imputation round 19/30, elapsed time 0.10
+[IterativeImputer] Ending imputation round 20/30, elapsed time 0.10
+[IterativeImputer] Ending imputation round 21/30, elapsed time 0.10
+[IterativeImputer] Ending imputation round 22/30, elapsed time 0.11
+[IterativeImputer] Ending imputation round 23/30, elapsed time 0.11
+[IterativeImputer] Ending imputation round 24/30, elapsed time 0.11
+[IterativeImputer] Ending imputation round 25/30, elapsed time 0.11
+[IterativeImputer] Ending imputation round 26/30, elapsed time 0.12
+[IterativeImputer] Ending imputation round 27/30, elapsed time 0.12
+[IterativeImputer] Ending imputation round 28/30, elapsed time 0.12
+[IterativeImputer] Ending imputation round 29/30, elapsed time 0.12
+[IterativeImputer] Ending imputation round 30/30, elapsed time 0.13
+fit_time0.047822189331054685
+score_time0.0034722328186035157
+test_accuracy0.9363075295362371
+test_precision0.9519347397516412
+test_recall0.9565716401332841
+test_f1_score0.9540440256493538
+LR/IterativeBayesianRidge
+[IterativeImputer] Completing matrix with shape (534, 33)
+[IterativeImputer] Ending imputation round 1/30, elapsed time 0.23
+[IterativeImputer] Change: 5058.173063997351, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 2/30, elapsed time 0.44
+[IterativeImputer] Change: 16.38122894286621, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 3/30, elapsed time 0.67
+[IterativeImputer] Change: 31.610702754238247, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 4/30, elapsed time 0.89
+[IterativeImputer] Change: 15.157119949498389, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 5/30, elapsed time 1.10
+[IterativeImputer] Change: 6.609416645317934, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 6/30, elapsed time 1.32
+[IterativeImputer] Change: 4.018483808983238, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 7/30, elapsed time 1.53
+[IterativeImputer] Change: 2.554628266269432, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 8/30, elapsed time 1.76
+[IterativeImputer] Change: 1.6740989386450487, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 9/30, elapsed time 2.40
+[IterativeImputer] Change: 1.1697921473425197, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 10/30, elapsed time 3.01
+[IterativeImputer] Change: 0.969950699399367, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 11/30, elapsed time 3.22
+[IterativeImputer] Change: 0.9106472826442608, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 12/30, elapsed time 3.35
+[IterativeImputer] Change: 0.8396334607657225, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 13/30, elapsed time 3.47
+[IterativeImputer] Change: 0.7659457093367937, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 14/30, elapsed time 3.62
+[IterativeImputer] Change: 0.6952129856448581, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 15/30, elapsed time 3.95
+[IterativeImputer] Change: 0.6302018605137746, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 16/30, elapsed time 4.23
+[IterativeImputer] Change: 0.5717383029903552, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 17/30, elapsed time 4.50
+[IterativeImputer] Change: 0.5195543904132275, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 18/30, elapsed time 4.65
+[IterativeImputer] Change: 0.4729054309594155, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 19/30, elapsed time 5.08
+[IterativeImputer] Change: 0.43094915730735484, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 20/30, elapsed time 5.34
+[IterativeImputer] Change: 0.39293753824754984, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 21/30, elapsed time 5.61
+[IterativeImputer] Change: 0.358284207772515, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 22/30, elapsed time 5.90
+[IterativeImputer] Change: 0.32656185125304127, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 23/30, elapsed time 6.36
+[IterativeImputer] Change: 0.2974684999668008, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 24/30, elapsed time 6.75
+[IterativeImputer] Change: 0.27078675430305643, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 25/30, elapsed time 7.07
+[IterativeImputer] Change: 0.24634833788299215, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 26/30, elapsed time 7.38
+[IterativeImputer] Change: 0.22400860054251448, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 27/30, elapsed time 7.92
+[IterativeImputer] Change: 0.20363108813109188, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 28/30, elapsed time 8.32
+[IterativeImputer] Change: 0.18508018345813826, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 29/30, elapsed time 8.74
+[IterativeImputer] Change: 0.16821922415311985, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 30/30, elapsed time 8.96
+[IterativeImputer] Change: 0.1529117280834541, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Completing matrix with shape (534, 33)
+[IterativeImputer] Ending imputation round 1/30, elapsed time 0.02
+[IterativeImputer] Ending imputation round 2/30, elapsed time 0.03
+[IterativeImputer] Ending imputation round 3/30, elapsed time 0.05
+[IterativeImputer] Ending imputation round 4/30, elapsed time 0.06
+[IterativeImputer] Ending imputation round 5/30, elapsed time 0.08
+[IterativeImputer] Ending imputation round 6/30, elapsed time 0.09
+[IterativeImputer] Ending imputation round 7/30, elapsed time 0.09
+[IterativeImputer] Ending imputation round 8/30, elapsed time 0.12
+[IterativeImputer] Ending imputation round 9/30, elapsed time 0.13
+[IterativeImputer] Ending imputation round 10/30, elapsed time 0.14
+[IterativeImputer] Ending imputation round 11/30, elapsed time 0.15
+[IterativeImputer] Ending imputation round 12/30, elapsed time 0.17
+[IterativeImputer] Ending imputation round 13/30, elapsed time 0.18
+[IterativeImputer] Ending imputation round 14/30, elapsed time 0.19
+[IterativeImputer] Ending imputation round 15/30, elapsed time 0.19
+[IterativeImputer] Ending imputation round 16/30, elapsed time 0.20
+[IterativeImputer] Ending imputation round 17/30, elapsed time 0.21
+[IterativeImputer] Ending imputation round 18/30, elapsed time 0.22
+[IterativeImputer] Ending imputation round 19/30, elapsed time 0.22
+[IterativeImputer] Ending imputation round 20/30, elapsed time 0.23
+[IterativeImputer] Ending imputation round 21/30, elapsed time 0.24
+[IterativeImputer] Ending imputation round 22/30, elapsed time 0.24
+[IterativeImputer] Ending imputation round 23/30, elapsed time 0.25
+[IterativeImputer] Ending imputation round 24/30, elapsed time 0.26
+[IterativeImputer] Ending imputation round 25/30, elapsed time 0.27
+[IterativeImputer] Ending imputation round 26/30, elapsed time 0.27
+[IterativeImputer] Ending imputation round 27/30, elapsed time 0.28
+[IterativeImputer] Ending imputation round 28/30, elapsed time 0.29
+[IterativeImputer] Ending imputation round 29/30, elapsed time 0.30
+[IterativeImputer] Ending imputation round 30/30, elapsed time 0.30
+[IterativeImputer] Completing matrix with shape (1, 33)
+[IterativeImputer] Ending imputation round 1/30, elapsed time 0.00
+[IterativeImputer] Ending imputation round 2/30, elapsed time 0.01
+[IterativeImputer] Ending imputation round 3/30, elapsed time 0.01
+[IterativeImputer] Ending imputation round 4/30, elapsed time 0.02
+[IterativeImputer] Ending imputation round 5/30, elapsed time 0.02
+[IterativeImputer] Ending imputation round 6/30, elapsed time 0.02
+[IterativeImputer] Ending imputation round 7/30, elapsed time 0.03
+[IterativeImputer] Ending imputation round 8/30, elapsed time 0.03
+[IterativeImputer] Ending imputation round 9/30, elapsed time 0.03
+[IterativeImputer] Ending imputation round 10/30, elapsed time 0.04
+[IterativeImputer] Ending imputation round 11/30, elapsed time 0.04
+[IterativeImputer] Ending imputation round 12/30, elapsed time 0.05
+[IterativeImputer] Ending imputation round 13/30, elapsed time 0.05
+[IterativeImputer] Ending imputation round 14/30, elapsed time 0.05
+[IterativeImputer] Ending imputation round 15/30, elapsed time 0.06
+[IterativeImputer] Ending imputation round 16/30, elapsed time 0.06
+[IterativeImputer] Ending imputation round 17/30, elapsed time 0.06
+[IterativeImputer] Ending imputation round 18/30, elapsed time 0.07
+[IterativeImputer] Ending imputation round 19/30, elapsed time 0.07
+[IterativeImputer] Ending imputation round 20/30, elapsed time 0.08
+[IterativeImputer] Ending imputation round 21/30, elapsed time 0.08
+[IterativeImputer] Ending imputation round 22/30, elapsed time 0.08
+[IterativeImputer] Ending imputation round 23/30, elapsed time 0.09
+[IterativeImputer] Ending imputation round 24/30, elapsed time 0.09
+[IterativeImputer] Ending imputation round 25/30, elapsed time 0.09
+[IterativeImputer] Ending imputation round 26/30, elapsed time 0.10
+[IterativeImputer] Ending imputation round 27/30, elapsed time 0.10
+[IterativeImputer] Ending imputation round 28/30, elapsed time 0.10
+[IterativeImputer] Ending imputation round 29/30, elapsed time 0.11
+[IterativeImputer] Ending imputation round 30/30, elapsed time 0.11
+fit_time0.1475926399230957
+score_time0.0037063121795654296
+test_accuracy0.9363075295362371
+test_precision0.9518421052631579
+test_recall0.9565716401332839
+test_f1_score0.9540848764930964
+LR/IterativeDecisionTreeRegressor
+[IterativeImputer] Completing matrix with shape (534, 33)
+[IterativeImputer] Ending imputation round 1/30, elapsed time 0.14
+[IterativeImputer] Change: 720.634555568602, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 2/30, elapsed time 0.22
+[IterativeImputer] Change: 580.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 3/30, elapsed time 0.38
+[IterativeImputer] Change: 374.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 4/30, elapsed time 0.56
+[IterativeImputer] Change: 410.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 5/30, elapsed time 0.63
+[IterativeImputer] Change: 582.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 6/30, elapsed time 0.70
+[IterativeImputer] Change: 582.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 7/30, elapsed time 0.82
+[IterativeImputer] Change: 584.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 8/30, elapsed time 0.91
+[IterativeImputer] Change: 572.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 9/30, elapsed time 0.98
+[IterativeImputer] Change: 600.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 10/30, elapsed time 1.05
+[IterativeImputer] Change: 416.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 11/30, elapsed time 1.13
+[IterativeImputer] Change: 451.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 12/30, elapsed time 1.20
+[IterativeImputer] Change: 600.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 13/30, elapsed time 1.27
+[IterativeImputer] Change: 583.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 14/30, elapsed time 1.35
+[IterativeImputer] Change: 474.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 15/30, elapsed time 1.42
+[IterativeImputer] Change: 273.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 16/30, elapsed time 1.49
+[IterativeImputer] Change: 569.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 17/30, elapsed time 1.57
+[IterativeImputer] Change: 570.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 18/30, elapsed time 1.64
+[IterativeImputer] Change: 570.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 19/30, elapsed time 1.72
+[IterativeImputer] Change: 367.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 20/30, elapsed time 1.79
+[IterativeImputer] Change: 374.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 21/30, elapsed time 1.86
+[IterativeImputer] Change: 373.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 22/30, elapsed time 1.93
+[IterativeImputer] Change: 417.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 23/30, elapsed time 2.01
+[IterativeImputer] Change: 570.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 24/30, elapsed time 2.08
+[IterativeImputer] Change: 416.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 25/30, elapsed time 2.15
+[IterativeImputer] Change: 678.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 26/30, elapsed time 2.22
+[IterativeImputer] Change: 575.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 27/30, elapsed time 2.30
+[IterativeImputer] Change: 499.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 28/30, elapsed time 2.37
+[IterativeImputer] Change: 569.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 29/30, elapsed time 2.44
+[IterativeImputer] Change: 568.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 30/30, elapsed time 2.51
+[IterativeImputer] Change: 272.0, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Completing matrix with shape (534, 33)
+[IterativeImputer] Ending imputation round 1/30, elapsed time 0.01
+[IterativeImputer] Ending imputation round 2/30, elapsed time 0.01
+[IterativeImputer] Ending imputation round 3/30, elapsed time 0.02
+[IterativeImputer] Ending imputation round 4/30, elapsed time 0.02
+[IterativeImputer] Ending imputation round 5/30, elapsed time 0.03
+[IterativeImputer] Ending imputation round 6/30, elapsed time 0.04
+[IterativeImputer] Ending imputation round 7/30, elapsed time 0.04
+[IterativeImputer] Ending imputation round 8/30, elapsed time 0.05
+[IterativeImputer] Ending imputation round 9/30, elapsed time 0.06
+[IterativeImputer] Ending imputation round 10/30, elapsed time 0.06
+[IterativeImputer] Ending imputation round 11/30, elapsed time 0.07
+[IterativeImputer] Ending imputation round 12/30, elapsed time 0.07
+[IterativeImputer] Ending imputation round 13/30, elapsed time 0.08
+[IterativeImputer] Ending imputation round 14/30, elapsed time 0.08
+[IterativeImputer] Ending imputation round 15/30, elapsed time 0.09
+[IterativeImputer] Ending imputation round 16/30, elapsed time 0.10
+[IterativeImputer] Ending imputation round 17/30, elapsed time 0.10
+[IterativeImputer] Ending imputation round 18/30, elapsed time 0.11
+[IterativeImputer] Ending imputation round 19/30, elapsed time 0.11
+[IterativeImputer] Ending imputation round 20/30, elapsed time 0.12
+[IterativeImputer] Ending imputation round 21/30, elapsed time 0.13
+[IterativeImputer] Ending imputation round 22/30, elapsed time 0.13
+[IterativeImputer] Ending imputation round 23/30, elapsed time 0.14
+[IterativeImputer] Ending imputation round 24/30, elapsed time 0.14
+[IterativeImputer] Ending imputation round 25/30, elapsed time 0.15
+[IterativeImputer] Ending imputation round 26/30, elapsed time 0.16
+[IterativeImputer] Ending imputation round 27/30, elapsed time 0.16
+[IterativeImputer] Ending imputation round 28/30, elapsed time 0.17
+[IterativeImputer] Ending imputation round 29/30, elapsed time 0.17
+[IterativeImputer] Ending imputation round 30/30, elapsed time 0.18
+[IterativeImputer] Completing matrix with shape (1, 33)
+[IterativeImputer] Ending imputation round 1/30, elapsed time 0.00
+[IterativeImputer] Ending imputation round 2/30, elapsed time 0.01
+[IterativeImputer] Ending imputation round 3/30, elapsed time 0.01
+[IterativeImputer] Ending imputation round 4/30, elapsed time 0.01
+[IterativeImputer] Ending imputation round 5/30, elapsed time 0.02
+[IterativeImputer] Ending imputation round 6/30, elapsed time 0.02
+[IterativeImputer] Ending imputation round 7/30, elapsed time 0.03
+[IterativeImputer] Ending imputation round 8/30, elapsed time 0.03
+[IterativeImputer] Ending imputation round 9/30, elapsed time 0.03
+[IterativeImputer] Ending imputation round 10/30, elapsed time 0.04
+[IterativeImputer] Ending imputation round 11/30, elapsed time 0.04
+[IterativeImputer] Ending imputation round 12/30, elapsed time 0.05
+[IterativeImputer] Ending imputation round 13/30, elapsed time 0.05
+[IterativeImputer] Ending imputation round 14/30, elapsed time 0.06
+[IterativeImputer] Ending imputation round 15/30, elapsed time 0.06
+[IterativeImputer] Ending imputation round 16/30, elapsed time 0.07
+[IterativeImputer] Ending imputation round 17/30, elapsed time 0.07
+[IterativeImputer] Ending imputation round 18/30, elapsed time 0.07
+[IterativeImputer] Ending imputation round 19/30, elapsed time 0.08
+[IterativeImputer] Ending imputation round 20/30, elapsed time 0.08
+[IterativeImputer] Ending imputation round 21/30, elapsed time 0.08
+[IterativeImputer] Ending imputation round 22/30, elapsed time 0.09
+[IterativeImputer] Ending imputation round 23/30, elapsed time 0.09
+[IterativeImputer] Ending imputation round 24/30, elapsed time 0.10
+[IterativeImputer] Ending imputation round 25/30, elapsed time 0.10
+[IterativeImputer] Ending imputation round 26/30, elapsed time 0.10
+[IterativeImputer] Ending imputation round 27/30, elapsed time 0.11
+[IterativeImputer] Ending imputation round 28/30, elapsed time 0.11
+[IterativeImputer] Ending imputation round 29/30, elapsed time 0.11
+[IterativeImputer] Ending imputation round 30/30, elapsed time 0.12
+fit_time0.07090635299682617
+score_time0.003799104690551758
+test_accuracy0.936307529536237
+test_precision0.9496280028821638
+test_recall0.959237319511292
+test_f1_score0.954243716077207
+LR/IterativeRandomForestRegressor
+[IterativeImputer] Completing matrix with shape (534, 33)
+[IterativeImputer] Ending imputation round 1/30, elapsed time 7.03
+[IterativeImputer] Change: 336.0472324803736, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 2/30, elapsed time 15.84
+[IterativeImputer] Change: 133.7, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 3/30, elapsed time 24.82
+[IterativeImputer] Change: 69.03, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 4/30, elapsed time 33.28
+[IterativeImputer] Change: 90.91, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 5/30, elapsed time 40.88
+[IterativeImputer] Change: 91.82999999999998, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 6/30, elapsed time 49.25
+[IterativeImputer] Change: 103.10999999999994, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 7/30, elapsed time 57.00
+[IterativeImputer] Change: 103.48000000000002, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 8/30, elapsed time 65.05
+[IterativeImputer] Change: 99.35999999999999, scaled tolerance: 1.0230000000000001e-07 
+[IterativeImputer] Ending imputation round 9/30, elapsed time 73.04
+[IterativeImputer] Change: 85.57999999999996, scaled tolerance: 1.0230000000000001e-07 

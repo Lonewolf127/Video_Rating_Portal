@@ -1,0 +1,15 @@
+input[type="file"] {
+    display: none;
+}
+.custom-file-label {
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+#thumbnail img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

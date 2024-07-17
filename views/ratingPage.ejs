@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<%- include ('partials/header',{title:'Ratings'}); %>
+<body>
+<form action="/ratings" method="post">
+    <% var i=1; %>
+    <% questions.forEach(function(question){ %>
+        <%- include('partials/para', {question:question}); %>
+        <% ["0","1","2","3"].forEach(function(x){ %>
+        <%- include('partials/radiobutton',{radiobutton_id:'Q'+i+'.'+x,questionNo: i, label_name:x, value:x}); %>
+        
+     <%  }); %>
+    <% i++; }); %>
+    <br><br>
+    <button type ="submit">Submit</button>
+ 
+  </form>
+</body>
+</html>
